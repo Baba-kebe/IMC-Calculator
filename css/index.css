@@ -1,0 +1,17 @@
+h1, label, input, fieldset
+{
+    text-align: center;
+}
+
+label, input
+{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 30px;
+}
+
+label, input, fieldset
+{
+    margin-top: 10px;
+}

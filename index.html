@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" href="css/index.css">
+        <title>IMC Calculator</title>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <h1>IMC Calcuator</h1>
+        <form>
+            <label for="poids">Poids</label>
+            <input type="number" id="poids" placeholder="poids en kg">
+            <label for="taille">Taille</label>
+            <input type="number" id="taille" placeholder="taille en m">
+            <input type="button" value="calculer INC" onclick="calculerINC()">
+        </form>
+    <fieldset hidden>
+        <legend>Resultats</legend>
+        <span>
+            votre IMC est : 16,5 <br>
+            Vous en en poids normal
+        </span>
+    </fieldset>
+    </body>
+</html>
